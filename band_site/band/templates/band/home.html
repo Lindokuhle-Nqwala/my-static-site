@@ -1,0 +1,15 @@
+{% load static %}
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="{% static 'styles.css' %}">
+     <title>Home</title>
+ </head>
+ <body>
+     <h1>Welcome to Our Band's Official Website</h1>
+     <p>We are the most awesome band in the world!</p>
+     <a href="{% url 'concerts' %}">Check out our upcoming concerts!</a><br>
+     <a href="{% url 'band_members' %}">Meet the Band</a>
+ </body>
+ </html>
