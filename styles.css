@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .product-img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .product-img:hover {
+    transform: scale(1.1);
+  }
+
+  .product-card {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  footer {
+    margin-top: 50px;
+    background-color: #eaeaea;
+  }
